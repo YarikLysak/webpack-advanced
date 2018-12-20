@@ -1,0 +1,13 @@
+@orange: #ffa500;
+@black: #000;
+
+body {
+  display: flex;
+  justify-content: center;
+  .myStyle();
+}
+
+.myStyle(@color, @bg) {
+  color: @color;
+  background: @bg;
+}
